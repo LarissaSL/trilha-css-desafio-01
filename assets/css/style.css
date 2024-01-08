@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+body {
+    background-color: black;
+}
+
+.banner {
+    height: 30rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 162, 255, 0.1), rgba(0, 0, 0, 0.1)), url('https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 12rem; 
+}
+
+.banner-content {
+    text-align: center; 
+    margin: 2rem 0rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 1rem 0rem .5rem 0rem;
+    text-transform: uppercase;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.banner p {
+    font-size: 1rem;
+    margin: .7rem 0rem;
+    width: 30rem;
+    color: #FFFFFF;
+}
+
+button {
+    width: 70%;
+    height: 2rem;
+    max-width: 300px;
+    margin-top: .8rem;
+    text-align: center;
+    background: none;
+    border: 2px solid #33A8DB; 
+    color: #33A8DB; 
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#course-content {
+    height: 25rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+#course-content h2 {
+    color: #33A8DB;
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#course-content p {
+    font-size: .8rem;
+    font-size: .8rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    color: #FFFFFF;
+}
+
+.modules-list {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.module {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    background-color: #252525;
+    width: 400px;
+    height: 2.5rem;
+    margin: .5rem;
+    border: 2px solid #33A8DB;
+    border-radius: 10px; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url('https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/woman-code.png?raw=true');
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-attachment: fixed;
+}
+
+.container-transform-world p {
+    font-weight: 800;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    max-width: 9.3rem;
+    position: absolute;
+    margin: 4rem 2.5rem;
+    text-shadow: 2px 2px 4px  #33A8DB;
+}
+
+.container-transform-world{
+    margin: 2rem;
+}
+
+#professional-challenges{
+    padding: 3rem;
+    text-align: center;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+#professional-challenges p{
+    color: #FFFFFF;
+    font-size: .8rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+#professional-challenges img{
+    max-width: 100%;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 162, 255, 0.1));
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 800;
+}
